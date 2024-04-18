@@ -45,8 +45,35 @@
 
         <p>i am lazy zzzz</p>
 
-        <img src="misc/me pain.gif" alt="Looping GIF">
-    </section>
+
+ <!-- walk along screen -->
+ <div class="gif-container2" id="gif-container2">
+    <img src="misc/me pain.gif" >
+</div>
+
+<!-- click go woooo -->
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const rollSound = new Audio("misc/sump.mp3");
+
+        const gifContainer = document.getElementById('gif-container2');
+        gifContainer.addEventListener("click", () => {
+
+            rollSound.play(); 
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- weehh -->
 
