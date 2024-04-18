@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 21px 0;/* jump street*/
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    animation: 2s multicolor;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.pathways {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pathways li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.pathways li:last-child {
+    margin-right: 0;
+}
+
+.pathways {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    animation: 2s multicolor;
+    
+}
+
+@keyframes multicolor {
+    0% {
+        color: #000000;
+    }
+    33% {
+        color: #ff0000;
+    }
+    66% {
+        color: #9e8dff;
+    }
+    100% {
+        color: #FFF;
+    }
+}
+
+
+.pathways:hover {
+    color: #9e8dff; /* this is my favorite color :)*/
+    
+}
+
+.bigmeal {
+    padding: 40px;
+    text-align: center;
+}
+
+.bigmeal h1{
+   
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.bigmeal p {
+    font-family: 'DotGothic16', sans-serif;
+}
