@@ -233,6 +233,7 @@ body {
 }
 
 .gif-container img {
+    z-index: -1;
     opacity: .8;
     position: absolute;
     top: 55%; 
@@ -346,7 +347,6 @@ list-style: none;
 
 
 .gif-container{ 
-    
     cursor:pointer 
 }
 .gif-container2{
