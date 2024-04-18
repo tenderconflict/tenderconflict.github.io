@@ -39,8 +39,6 @@
 
 
 
-    <audio src="misc/Orch Hit.wav" preload></audio>
-
     <section class="bigmeal">
         <!-- big meal for a hungry reader🍔 -->
         <h1 class="movingName"> hey, welcome to my website! </h1>
@@ -83,10 +81,28 @@
 
 
 
+
+
+
+
   <!-- walk along screen -->
-<div class="gif-container">
-    <img src="misc/me run.gif" alt="Moving GIF">
+  <div class="gif-container" id="gif-container">
+    <img src="misc/me run.gif" >
 </div>
+
+<!-- click go woooo -->
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const rollSound = new Audio("misc/roses.mp3");
+
+        const gifContainer = document.getElementById('gif-container');
+        gifContainer.addEventListener("click", () => {
+
+            rollSound.play(); 
+        });
+    });
+</script>
+
 
 
 
@@ -148,8 +164,24 @@
 
 
 
-        <!-- end of album list -->
+        
     </section>
+<!-- end of album list -->
+
+
+
+
+
+
+    <section class="footer">
+        <!-- And that's the bottom line cause Stone Cold said so -->
+        <p>&copy; 2024 Tender Conflict. All Rights Reserved.</p>
+        <a href="https://youtu.be/oOXe-kxlzz8">
+            <img src="misc/mylowgou.png" width="40%">
+        </a>
+    </section>
+
+
 
 
 

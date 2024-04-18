@@ -241,7 +241,7 @@ body {
     transform: translate(-50%, -50%); 
     animation: moveRight 30s linear infinite; 
 
-    animation-delay: 6s;
+    /*animation-delay: 6s;*/
 }
 
 @keyframes moveRight {
@@ -318,6 +318,30 @@ body {
     animation: 2s multicolor;
     font-size: 14px;
     color: #e3dfff;
+}
+
+
+
+
+
+
+
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+list-style: none;
+}
+
+
+.secret{
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+list-style: none;
+    color: #362e2e;
 }
 
 
