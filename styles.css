@@ -192,7 +192,8 @@ body {
 
 
 .linksHere {
-    z-index: 4;
+    
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,12 +229,13 @@ body {
 
 /* walk across animationi*/
 .gif-container {
+   
     width: 100%; 
     height: auto;
 }
 
 .gif-container img {
-    z-index: 2;
+    z-index: -2;
     opacity: .8;
     position: absolute;
     top: 55%; 
