@@ -52,7 +52,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tender Conflict</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/merchstyles.css">
 </head>
 <body>
     <header>
@@ -65,7 +65,7 @@
                     <li><a href="workinprogress.html" class="pathways">About</a></li>
                     <li><a href="workinprogress.html" class="pathways">Music</a></li>
                       <!-- unfinished works section -->
-                    <li><a href="https://youtu.be/pfplW_t-j-o" class="pathways">Merch</a></li>
+                    <li><a href="workinprogress.html" class="pathways">Merch</a></li>
                     <li><a href="workinprogress.html" class="pathways">Contact</a></li>
                 </ul>
             </div>
@@ -92,28 +92,32 @@
 
     <section class="bigmeal">
         <!-- big meal for a hungry reader -->
-        <h1>Merch Here!!</h1>
+        <h1>Choose your merch</h1>
  
     </section>
 
-    <section class="album-grid">
+    <section class="merchGrid">
         <!-- ten whole dollars -->
-        <div class="album">
-            <a href="https://tenderconflict.bandcamp.com/album/ten-whole-dollars">
-                <img src="misc/merchfiller.png" alt="merch">
+        <div class="merch" id="merch1">
+            <a href="https://www.redbubble.com/people/tenderconflict/shop">
+                <img src="misc/physical.png" alt="physical">
             </a>
             <h1 class="movingName">Stickers & Pins</h1>
             <p>Click the pic to visit my Redbubble page.</p>
         </div>
 
  <!-- self title -->
-        <div class="album">
+        <div class="merch" id="merch2">
             <a href="https://tenderconflict.bandcamp.com/album/tender-conflict">
                 <img src="misc/digital.png" alt="digital">
             </a>
             <h1 class="movingName">Digital Albums</h1>
             <p>Click the pic to visit my bandcamp.</p>
         </div>
+
+
+
+
 
 
 
@@ -139,3 +143,24 @@
 </body>
 </html>
 
+
+  <!--
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const merch1Sound = new Audio("misc/bling.wav");
+        const merch2Sound = new Audio("misc/boing.wav");
+
+        const merch1Container = document.getElementById('merch1');
+        const merch2Container = document.getElementById('merch2');
+
+        merch1Container.addEventListener("mouseenter", () => {
+            merch1Sound.play();
+        });
+
+        merch2Container.addEventListener("mouseenter", () => {
+            merch2Sound.play();
+        });
+    });
+</script>
+
+-->

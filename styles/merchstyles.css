@@ -148,7 +148,8 @@ body {
 }
 
 .bigmeal h1{
-    animation: 10s mcolortext infinite;
+   
+    animation: 10s mcolortext infinite, mover 4s infinite;
     font-family: 'Pixelify Sans', sans-serif;
 }
 
@@ -184,6 +185,21 @@ body {
  
 
 
+@keyframes merchSquisher {
+    0% {
+        
+        transform: rotateX(0deg);
+        
+    }
+    50% {
+        transform: rotatex(-50deg);
+    }
+    100% {
+        transform: rotateX(0deg);
+        
+    }
+}
+
 
 
 
@@ -199,7 +215,11 @@ body {
     height: auto;
 }
 
+
+
+
 .gif-container img {
+    
     z-index: -2;
     opacity: .8;
     position: absolute;
@@ -247,29 +267,33 @@ body {
 
 
 
-.album-grid {
+.merchGrid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
 }
 
-.album {
-   
-    background-color: rgba(0, 0, 0, 0.5); 
-    
+.merch {
+    animation: translateY(0) 2s ease-in-out;
+ 
     padding: 20px;
     border-radius: 6px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-.album img {
-    
+.merch img {
+    animation: translateY(0) 2s ease-in-out;
+   /* animation: merchSquisher 4s ease-in-out infinite;  */
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
     margin-bottom: 15px;
+    transition: transform 0.4s ease;
+}
+
+.merch:hover{
+    animation: 2s merchSquisher infinite ease-in-out; /* SPEEEEEN */
+  
 }
 
 
@@ -278,15 +302,14 @@ body {
 
 
 
-
-.album h3 {
+.merch h3 {
     animation: 2s multicolor;
     color: #ffffff;
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-.album p {
+.merch p {
     animation: 2s multicolor;
     font-size: 14px;
     color: #e3dfff;
@@ -307,14 +330,6 @@ list-style: none;
 }
 
 
-.secret{
-    background-color: #000000;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-list-style: none;
-    color: #362e2e;
-}
 
 
 .gif-container{ 
