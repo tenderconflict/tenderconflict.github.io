@@ -91,7 +91,7 @@ body {
 /* only for titles*/
 @keyframes mcolortext {
     0% {
-        color: #ffffff;
+        color: #95fffa;
     }
     25% {
         color: #9e8dff;
@@ -104,7 +104,7 @@ body {
         color: #ff4e4e;
     }
     100% {
-        color: #FFF;
+        color: #95fffa;
     }
 }
 
@@ -118,7 +118,7 @@ body {
 /* i fucking love css*/
 @keyframes backgroundmulticolor {
     0% {
-        background-color: #000000;
+        background-color: #002927;
     }
     25% {
         background-color: #0d053b;
@@ -130,7 +130,7 @@ body {
         background-color: #440000;
     }
     100% {
-        background-color: #000000;
+        background-color: #002927;
     }
 }
 
@@ -185,25 +185,6 @@ body {
     }
 }
  
-
- 
-
-
-@keyframes merchSquisher {
-    0% {
-        
-        transform: rotateX(0deg);
-        
-    }
-    50% {
-        transform: rotatex(-50deg);
-    }
-    100% {
-        transform: rotateX(0deg);
-        
-    }
-}
-
 
 
 
@@ -279,26 +260,23 @@ body {
 }
 
 .merch {
-    animation: translateY(0) 2s ease-in-out;
+    
  
     padding: 20px;
     border-radius: 6px;
     text-align: center;
+    transition: transform 2s ease;
 }
 
 .merch img {
-    animation: translateY(0) 2s ease-in-out;
+    
    /* animation: merchSquisher 4s ease-in-out infinite;  */
     max-width: 100%;
     height: auto;
     margin-bottom: 15px;
-    transition: transform 0.4s ease;
+    transition: transform 2s ease;
 }
 
-.merch:hover{
-    animation: 2s merchSquisher infinite ease-in-out; /* SPEEEEEN */
-  
-}
 
 
 
@@ -311,15 +289,14 @@ body {
     color: #ffffff;
     font-size: 18px;
     margin-bottom: 10px;
+    
 }
 
 .merch p {
-    animation: 2s multicolor;
-    font-size: 14px;
+text-align: left;
+    font-size: 18px;
     color: #e3dfff;
 }
-
-
 
 
 
