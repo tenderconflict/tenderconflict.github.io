@@ -146,14 +146,12 @@ body {
 }
 
 .bigmeal {
-    
     color: #ffffff;
     padding: 40px;
     text-align: center;
 }
 
 .bigmeal h1{
-    
     animation: 10s mcolortext infinite;
     font-family: 'Pixelify Sans', sans-serif;
 }
@@ -244,13 +242,13 @@ body {
     z-index: -2;
     opacity: .8;
     position: absolute;
-    top: 50%; 
+    top: 55%; 
     left: -100px; 
     width: 50px;
     transform: translate(-50%, -50%); 
     animation: moveRight 30s linear infinite; 
 
-     animation-delay: 6s;
+    animation-delay: 6s;
 }
 
 @keyframes moveRight {
@@ -345,7 +343,6 @@ list-style: none;
 border-top:5px solid  ;
 animation: 10s mcolortext infinite;
 }
-
 
 .secret{
     background-color: #000000;
