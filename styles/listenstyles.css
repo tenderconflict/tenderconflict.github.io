@@ -149,7 +149,7 @@ body {
 
 .bigmeal {
     color: #ffffff;
-    padding: 40px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -274,6 +274,19 @@ body {
 
 
 
+@keyframes mcolorborder {
+    0% {
+        border-color: rgba(255, 255, 255, 0);
+    }
+    25% {
+        border-color: #ff404083;
+    }
+    
+    100% {
+        border-color: rgba(255, 255, 255, 0.075);
+    }
+}
+
 
 
 
@@ -366,11 +379,15 @@ list-style: none;
     cursor:pointer 
 }
 .gif-container2{
+   opacity: .9;
     align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+padding-top: 0px;
+
+
+
+
 }
-
-
