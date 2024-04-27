@@ -254,14 +254,14 @@ body {
 
 .merchGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 20px;
     padding: 20px;
+    align-content: center;
 }
 
 .merch {
-    
- 
+    align-content: center;
     padding: 20px;
     border-radius: 6px;
     text-align: center;
@@ -269,7 +269,6 @@ body {
 }
 
 .merch img {
-    
    /* animation: merchSquisher 4s ease-in-out infinite;  */
     max-width: 100%;
     height: auto;
@@ -293,6 +292,17 @@ body {
 }
 
 .merch p {
+       max-width: 500px; /*width of the text fits perfect dont change*/
+text-align: left;
+    font-size: 20px;
+    color: #e3dfff;
+    background-color: #00000086;
+    border-radius: 15px;
+    padding: 30px;
+
+    border-style: dotted;
+  border-width: thick;
+  animation: 4s mcolorborder infinite, mover 30s infinite;
 text-align: left;
     font-size: 18px;
     color: #e3dfff;
