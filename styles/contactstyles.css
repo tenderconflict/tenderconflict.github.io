@@ -137,6 +137,27 @@ body {
 
 
 
+@keyframes mcolorborder {
+    0% {
+        border-color: #ffffff;
+    }
+    25% {
+        border-color: #000000;
+    }
+    50% {
+        border-color: #000000;
+    }
+    80% {
+        border-color: #000000;
+    }
+    100% {
+        border-color: #000000;
+    }
+}
+
+
+
+
 
 
 
@@ -166,7 +187,10 @@ body {
 
 
 .movingName {
-   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
     font-size: 28px;
     color: #ffffff;
     font-family: 'Pixelify Sans', sans-serif;
@@ -259,16 +283,21 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
-    
+    justify-content: center; 
 }
 
 .merch {
-    
- 
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
     padding: 20px;
+
+    justify-items: center;
     border-radius: 6px;
-    text-align: center;
     transition: transform 2s ease;
+
+    
 }
 
 .merch img {
@@ -285,8 +314,6 @@ body {
 
 
 
-
-
 .merch h3 {
     
     animation: 2s multicolor;
@@ -296,11 +323,27 @@ body {
 }
 
 .merch p {
-    
+    max-width: 500px; /*width of the text fits perfect dont change*/
 text-align: left;
     font-size: 20px;
     color: #e3dfff;
+    background-color: #00000086;
+    border-radius: 15px;
+    padding: 30px;
+
+    border-style: dotted;
+  border-width: thick;
+  animation: 4s mcolorborder infinite, mover 30s infinite;
+
+
+/*dotted border color*/
 }
+
+
+
+
+
+
 
 
 
