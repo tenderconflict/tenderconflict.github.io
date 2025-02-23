@@ -47,7 +47,7 @@ body {
 }
 
 img.animated-gif{ /*spin gif*/
-    width: 900px;
+    width: 55%;
     z-index: -2;
     opacity: .4;
     position: absolute;
