@@ -51,7 +51,7 @@ img.animated-gif{ /*spin gif*/
     z-index: -2;
     opacity: .4;
     position: absolute;
-    top: 450px; 
+    top: 100px; 
     LEFT: 21%;
   }
 
@@ -125,7 +125,7 @@ img.animated-gif{ /*spin gif*/
 
 
 
-/* i fucking love css*/
+/* i really love css*/
 @keyframes backgroundmulticolor {
     0% {
         background-color: #000000;
@@ -244,7 +244,7 @@ img.animated-gif{ /*spin gif*/
 
 
 
-/* walk across animationi*/
+/* walk across animation*/
 .gif-container {
    
     width: 100%; 
