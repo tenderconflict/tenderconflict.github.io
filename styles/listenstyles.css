@@ -391,3 +391,16 @@ padding-top: 0px;
 
 
 }
+
+img.background-gif{ /*THIS IS THE BACKGROUND*/
+    position: fixed; 
+       top: 0;
+       left: -300px;
+       width: 100vw; 
+       height: 100vh; 
+       object-fit: cover; 
+       z-index: -4; 
+       opacity: 0.1;
+       zoom: 350%;
+       transform: rotate(35deg);
+     }
