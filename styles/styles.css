@@ -56,7 +56,15 @@ img.animated-gif{ /*spin gif*/
   }
 
  
-
+img.background-gif{ /*spin gif*/
+    width: 210%;
+    z-index: -3;
+    opacity: .4;
+    position: absolute;
+    top: 100px; 
+    left: -20%;
+  }
+background-gif
 
 .pathways {
     
