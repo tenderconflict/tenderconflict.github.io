@@ -280,7 +280,7 @@ body {
 
 .merch {
     animation: translateY(0) 2s ease-in-out;
- 
+    filter: drop-shadow(5px 5px 9px rgb(11, 5, 30)); /*color shadow change*/
     padding: 20px;
     border-radius: 6px;
     text-align: center;

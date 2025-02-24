@@ -290,6 +290,7 @@ body {
 }
 
 .merch {
+    filter: drop-shadow(5px 5px 9px rgb(36, 43, 85)); /*color shadow change*/
     align-content: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

@@ -386,7 +386,7 @@ list-style: none;
     align-items: center;
     padding: 20px;
 padding-top: 0px;
-
+filter: drop-shadow(5px 5px 9px rgb(11, 5, 30)); /*color shadow change*/
 
 
 
