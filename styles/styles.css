@@ -387,14 +387,22 @@ list-style: none;
 
 img.background-gif{ /*THIS IS THE BACKGROUND*/
     position: fixed; 
-       bottom: -260px;
+       bottom: -460px;
        left: -200px;
        width: 100vw; 
        height: 100vh; 
        object-fit: cover; 
        z-index: -2; 
        opacity: 0.3;
-       zoom: 185%;
+       /*zoom: 185%; does not work with safari*/
+
+       width: 200vw;
+    height: 200vh; 
+       -webkit-transform: scale(1.65);
+        transform: scale(1.65);
+
+
+       
        transform: rotate(9deg);
        
        filter: brightness(90%);
