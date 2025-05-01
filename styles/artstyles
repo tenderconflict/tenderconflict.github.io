@@ -194,9 +194,12 @@ body {
         transform: scale(1);
         
     }
-    70% {
-        transform: scale(1.05);
+
+    20% {
+        transform: scale(1.12);
     }
+
+    
     100% {
         transform: scale(1);
         
@@ -292,10 +295,11 @@ body {
     height: auto;
     margin-bottom: 15px;
     transition: transform 0.4s ease;
+    border-radius: 2%;
 }
 
 .merch:hover{
-    animation: 2s merchSquisher infinite ease-in-out; /* zoom */
+    animation: 5s merchSquisher infinite ease-in-out; /* zoom */
   
 }
 
