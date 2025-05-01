@@ -91,25 +91,19 @@ body {
 /* only for titles*/
 @keyframes mcolortext {
     0% {
-        color: rgb(163, 39, 39);
+        color: rgb(66, 211, 247);
     }
-    20% {
-        color: #c27518;
+    25% {
+        color: #f95aff;
     }
-    40% {
-        color: #e6e994;
+    50% {
+        color: rgb(255, 255, 255);
     }
-    60% {
-        color: #41cb2f;
-    }
-    80% {
-        color: rgb(37, 78, 204);
-    }
-    90% {
-        color: rgb(90, 47, 209);
+    75% {
+        color: #f95aff;
     }
     100% {
-        color: rgb(163, 39, 39);
+        color: rgb(66, 211, 247);
     }
 }
 
@@ -126,13 +120,13 @@ body {
         background-color: rgb(157, 226, 243);
     }
     25% {
-        background-color: #fcadff;
+        background-color: #caa6cb;
     }
     50% {
         background-color: #969696;
     }
     75% {
-        background-color: #fcadff;
+        background-color: #caa6cb;
     }
     100% {
         background-color: rgb(157, 226, 243);
