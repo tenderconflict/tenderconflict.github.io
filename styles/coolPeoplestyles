@@ -391,6 +391,27 @@ img.background-gif{ /*THIS IS THE BACKGROUND*/
    }
 
 
+
+  
+   img.background-tii{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    background-image: url('path_to_your_image.jpg');  /* Specify your image path */
+    background-repeat: repeat;  /* Ensures the image repeats */
+    background-size: auto;  /* Prevents the image from stretching */
+    
+    z-index: -9;
+    opacity: 1;
+   }
+
+
+
+
+/* 
    img.background-gradient.fade-out {
     transition: opacity 1s ease;
     opacity: 0;
