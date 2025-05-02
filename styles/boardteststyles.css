@@ -6,6 +6,7 @@ body {
     animation: backgroundmulticolor 10s infinite; 
     transition: background-color 0.5s ease;
     cursor: url("/misc/coolpeoplepics/cursor.png"), auto;
+    
    
 }
 
