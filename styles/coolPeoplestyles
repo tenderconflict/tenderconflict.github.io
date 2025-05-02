@@ -347,10 +347,14 @@ animation: 10s mcolortext infinite;
 
 
 .footer {
+
+    
     width:100%;
 height:auto;
     left: 0;
     bottom: 0;
+
+    
 }
 
 
