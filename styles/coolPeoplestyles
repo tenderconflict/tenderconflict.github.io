@@ -290,6 +290,7 @@ body {
 }
 
 .merch img {
+    height: 16vh;
     width : 95%;
     max-height: 60%;
     object-fit:cover;
