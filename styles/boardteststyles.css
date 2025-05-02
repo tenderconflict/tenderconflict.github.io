@@ -1,0 +1,456 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    animation: backgroundmulticolor 10s infinite; 
+    transition: background-color 0.5s ease;
+    cursor: url("/misc/coolpeoplepics/cursor.png"), auto;
+   
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0px 0;
+}
+
+.navbar {
+    
+    background-color: #00000044;
+    opacity: 1;
+    background-image:  linear-gradient(135deg, #000000 25%, transparent 25%), linear-gradient(225deg, #000000 25%, transparent 25%), linear-gradient(45deg, #000000 25%, transparent 25%), linear-gradient(315deg, #000000 25%, #362e2e 25%);
+    background-position:  26px 0, 26px 0, 0 0, 0 0;
+    background-size: 26px 26px;
+    background-repeat: repeat;
+
+
+    color: #fff;
+    padding: 21px 0;/* jump street*/
+
+
+    border-bottom:5px solid  ;
+    animation: 10s mcolortext infinite;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    animation: 2s multicolor;
+    font-family: 'Pixelify Sans', sans-serif;
+    
+}
+
+
+
+.pathways {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pathways li {
+    display: inline;
+    margin-right: 21px;
+}
+
+.pathways li:last-child {
+    margin-right: 0;
+    
+}
+
+.pathways {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    animation: 2s multicolor;
+    
+}
+
+@keyframes multicolor {
+    0% {
+        color: #5BCEFA;
+    }
+    33% {
+        color: #F5A9B8;
+    }
+    66% {
+        color: #5BCEFA;
+    }
+    100% {
+        color: #FFFFFF;
+    }
+}
+
+/* only for titles*/
+@keyframes mcolortext {
+    0% {
+        color: rgb(66, 211, 247);
+    }
+    25% {
+        color: #f95aff;
+    }
+    50% {
+        color: rgb(255, 255, 255);
+    }
+    75% {
+        color: #f95aff;
+    }
+    100% {
+        color: rgb(66, 211, 247);
+    }
+}
+
+
+
+
+
+
+
+
+/* i love css*/
+@keyframes backgroundmulticolor {
+    0% {
+        background-color: rgb(157, 226, 243);
+    }
+    25% {
+        background-color: #caa6cb;
+    }
+    50% {
+        background-color: #969696;
+    }
+    75% {
+        background-color: #caa6cb;
+    }
+    100% {
+        background-color: rgb(157, 226, 243);
+    }
+}
+
+
+
+
+
+
+
+.pathways:hover {
+    color: #9e8dff; /* this is my favorite color :)*/
+    
+}
+
+.bigmeal {
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
+}
+
+.bigmeal h1{
+   font-size: 40px;
+    animation: 10s mcolortext infinite, mover 4s infinite;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.bigmeal p {
+    font-family: 'DotGothic16', sans-serif;
+}
+
+
+
+
+.movingName {
+    
+    color: #ffffff;
+    font-family: 'Pixelify Sans', sans-serif;
+    animation: mover 11s infinite;
+    
+}
+
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+ 
+
+ 
+
+
+@keyframes merchSquisher {
+    0% {
+        
+        transform: scale(1);
+        
+    }
+
+    20% {
+        transform: scale(1.12);
+    }
+
+    
+    100% {
+        transform: scale(1);
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+/* walk across animationi*/
+.gif-container {
+   
+    width: 100%; 
+    height: auto;
+}
+
+
+
+
+.gif-container img {
+    
+    z-index: -2;
+    opacity: .8;
+    position: absolute;
+    top: 55%; 
+    left: -100px; 
+    width: 50px;
+    transform: translate(-50%, -50%); 
+    animation: moveRight 30s linear infinite; 
+
+    animation-delay: 6s;
+}
+
+
+
+@keyframes moveRight {
+    from {
+        left: -100px; 
+    }
+    to {
+        left: calc(100% + 100px); 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.merchGrid {
+    align-content: center;
+       display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    grid-template-rows: repeat(3, 1fr);  /* always have the 3 rows */
+
+    width: 100%;
+}
+
+.merch {
+    
+    animation: translateY(0) 2s ease-in-out;
+   
+    text-align: center;
+    
+}
+
+.merch img {
+    height: 16vh;
+    height:auto !important;
+    width : 95%;
+    max-height: 60%;
+    object-fit:cover;
+    background-color: rgba(142, 142, 142, 0.242); 
+    
+    padding: 3px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
+
+    animation: translateY(-1) 2s ease-in-out;
+    transition: transform 0.4s ease;
+    animation: translateY(0) 2s ease-in-out;
+
+ 
+}
+
+.merch:hover{
+    animation: 3s merchSquisher infinite ease-in-out; /* zoom */
+  
+}
+
+
+
+
+
+
+.merch h3 {
+    animation: 2s multicolor;
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.merch p {
+    animation: 2s multicolor;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+
+
+
+.footer2 {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+list-style: none;
+
+border-top:5px solid  ;
+animation: 10s mcolortext infinite;
+}
+
+
+.footer {
+
+    
+    width:100%;
+height:auto;
+    left: 0;
+    bottom: 0;
+
+    
+}
+
+
+
+
+.gif-container{ 
+    cursor:pointer 
+}
+.gif-container2{
+    cursor:pointer 
+}
+
+
+
+img.background-gif{ /*THIS IS THE BACKGROUND*/
+    position: fixed; 
+       top: 0;
+       left: -300px;
+       object-fit: cover; 
+       z-index: -4; 
+       opacity: 0.04;
+       
+    filter: brightness(950%);
+
+       /*zoom: 185%; does not work with safari*/
+
+       width: 200vw;
+    height: 200vh; 
+       -webkit-transform: scale(1.65);
+        transform: scale(1.65);
+
+
+     }
+     
+     
+   img.background-gradient{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat, repeat;
+    object-fit:scale-down; 
+    z-index: 5; 
+    opacity: 1;
+   
+    background-color: #000000;
+    
+        
+   }
+
+
+
+  
+   img.background-tii{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+
+    
+    z-index: -9;
+    opacity: .8;
+   }
+
+   
+   img.background-tii-hud{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  
+    z-index: -9;
+    opacity: 1;
+    
+    filter: drop-shadow(5px 5px 9px rgb(11, 5, 30)); /*color shadow change*/
+    border-radius: 6px;
+
+   }
+
+
+
+
+
+
+   img.background-gradient.fade-out {
+    transition: opacity 1s ease;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transform: scale(1.65);
+    transform: scale(1.65);
+
+  }
