@@ -6,7 +6,7 @@ body {
     animation: backgroundmulticolor 10s infinite; 
     transition: background-color 0.5s ease;
     cursor: url("/misc/coolpeoplepics/cursor.png"), auto;
-    
+   
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
@@ -334,7 +334,16 @@ body {
 
 
 
+.footer2 {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+list-style: none;
 
+border-top:5px solid  ;
+animation: 10s mcolortext infinite;
+}
 
 
 .footer {
