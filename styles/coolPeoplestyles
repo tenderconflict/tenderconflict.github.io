@@ -333,14 +333,10 @@ body {
 
 
 .footer {
-    background-color: #000000;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-list-style: none;
-
-border-top:5px solid  ;
-animation: 10s mcolortext infinite;
+    width:100%;
+height:auto;
+    left: 0;
+    bottom: 0;
 }
 
 
@@ -361,7 +357,7 @@ img.background-gif{ /*THIS IS THE BACKGROUND*/
        left: -300px;
        object-fit: cover; 
        z-index: -4; 
-       opacity: 0.06;
+       opacity: 0.04;
        
     filter: brightness(950%);
 
@@ -405,8 +401,29 @@ img.background-gif{ /*THIS IS THE BACKGROUND*/
     background-size: auto;  /* Prevents the image from stretching */
     
     z-index: -9;
-    opacity: 1;
+    opacity: .8;
    }
+
+   
+   img.background-tii-hud{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    background-image: url('path_to_your_image.jpg');  /* Specify your image path */
+    background-repeat: repeat;  /* Ensures the image repeats */
+    background-size: auto;  /* Prevents the image from stretching */
+    
+    z-index: -9;
+    opacity: 1;
+    
+    filter: drop-shadow(5px 5px 9px rgb(11, 5, 30)); /*color shadow change*/
+    border-radius: 6px;
+
+   }
+
 
 
 
